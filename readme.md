@@ -7,23 +7,11 @@
 * MS-SQL
 * Server-Client
 
-### 네트워크 통신방식<br>
-1. 소켓 통신: Server와 Client가 특정 포트를 통해 연결을 성립하고 있는 실시간 양방향 통신<br>
-(예) Android, iOS
-<br><br>
-2. HTTP 통신: Client가 요청을 보내는 경우에만 Server가 응답하는 단방향 통신<br>
-(예) 스트리밍 서비스, 온라인 게임
-<br><br>
+### [RESULT] 결과물 일부 이미지
+![image](https://user-images.githubusercontent.com/34678475/115877466-70cb2f80-a482-11eb-9456-72b60d8751de.png)
 
-### 전송 계층의 프로토콜(Transport Layer)<br>
-- TCP(Transmission Control Protocol)
-- UDP(User Datagram Protocol)
+![image](https://user-images.githubusercontent.com/34678475/115877265-32ce0b80-a482-11eb-9f49-d123abe55483.png)
 
-1. TCP: 인터넷상에서 데이터를 메시지 형태로 보내기 위해 IP와 함께 사용하는 프로토콜<br>
-        >> 연결형 서비스, 높은 신뢰성, 상대적으로 느린 속도, 수신 여부 확인, 전송 순서 보장<br>
-           ==> 연속성보다 신뢰성 있는 전송<br>
-        >> if TCP Server, 서버-클라이언트(1:1)<br>
-2. UDP: 데이터를 데이터그램 단위로 처리하는 프로토콜<br>
-        >> 비연결형 서비스, 낮은 신뢰성, 상대적으로 빠른 속도, 수신 여부 비확인, 전송 순서 비보장<br> 
-           ==> 신뢰성 보다 연속성이 있는 전송<br>
-        >> if UDP Server, 서버-클라이언트(1:1, 1:N, N:M)<br>
+![image](https://user-images.githubusercontent.com/34678475/115877538-83ddff80-a482-11eb-83db-dd44193f9814.png)
+
+
