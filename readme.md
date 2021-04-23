@@ -2,9 +2,9 @@
 
 ### This is C# toy project.<br>
 * coded in 2017.05
-* Window 
-* Visual Studio 2015 
-* MS-SQL
+* OS: Window 
+* Tools: Visual Studio 2015 
+* DB: MS-SQL
 * Server-Client
 
 ### [RESULT] 결과물 일부 이미지
